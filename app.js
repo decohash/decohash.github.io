@@ -65,4 +65,3 @@ var e=require("react"),n=require("../navbar"),t=function(){return document.title
 },{"react":"1n8/","../navbar":"slC9"}],"A2T1":[function(require,module,exports) {
 var e=require("react"),r=require("react-dom"),t=require("./find"),n=require("./landing"),a=require("react-router-dom"),o=a.HashRouter,u=a.Route,c=function(){return e.createElement(o,null,e.createElement(u,{path:"/",exact:!0,component:n}),e.createElement(u,{path:"/finder",component:t}))};r.render(e.createElement(c,null),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","./find":"TwCA","./landing":"4i6+","react-router-dom":"/uc1"}]},{},["A2T1"], null)
-//# sourceMappingURL=/app.js.map
